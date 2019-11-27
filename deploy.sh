@@ -1,6 +1,6 @@
 git add . &&
 git commit -m $1 &&
-git push --force -u origin master &&
+git push -u origin master &&
 ssh root@164.132.227.35 <<EOF
 cd aulaadsn &&
 git pull origin master &&
