@@ -1,0 +1,18 @@
+/static StaticR Static appStatic
+
+/favicon.ico FaviconR GET
+/robots.txt RobotsR GET
+
+/ HomeR GET 
+/p1 Page1R GET
+/p2 Page2R GET
+
+--/produto ProdutoR GET POST
+--/listar  ListProdR GET
+--/produto/#ProdutoId/apagar ApagarProdR POST
+
+--/cadastro UsuarioR GET POST
+--/login    LoginR   GET POST
+--/logout   LogoutR  POST
+
+--/admin    AdminR   GET

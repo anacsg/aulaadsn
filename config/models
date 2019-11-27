@@ -1,0 +1,21 @@
+
+Usuario 
+    nome  Text
+    email Text
+    senha Text
+    UniqueEmailIx email
+    deriving Show
+
+Aluno
+    serie   Integer
+    numero  Integer
+    nome    Text
+    ra      Double
+    digito  Integer
+    nascimento Date
+    classe  Text
+    deriving Show
+    
+Doacao
+    nome Text
+    deriving Show
