@@ -1,6 +1,8 @@
 git add . &&
 git commit -m $1 &&
-git push --force -u origin master --allow-unrelated-histories &&
+###git push -u origin master&&
+git push origin master --allow-unrelated-histories
+git merge origin origin/master
 ssh root@164.132.227.35 <<EOF
 cd aulaadsn &&
 git pull origin master &&
